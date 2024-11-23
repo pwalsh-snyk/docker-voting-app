@@ -1,5 +1,5 @@
 # Define a base stage that uses the official python runtime base image
-FROM python:3.11-slim AS base
+FROM python:3.14.0a2-slim AS base
 
 # Add curl for healthcheck
 RUN apt-get update && \
